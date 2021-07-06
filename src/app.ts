@@ -11,4 +11,7 @@ export class Anagrams {
       this.words = fs.readFileSync(input, 'utf-8').toString().split('\n');
     }
   }
+  checkAnagrams = (): Array<Array<string>> =>{
+    return [[]]
+  }
 }
